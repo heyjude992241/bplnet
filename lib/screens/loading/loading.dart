@@ -45,6 +45,7 @@ class _LoadingState extends State<Loading> {
       children: [
         Text('BPLNet Mobile', 
         style: TextStyle(
+            fontFamily: 'PermanentMarker',
             fontWeight: FontWeight.bold, fontSize: 30.0,
             color: Colors.white
           )
@@ -61,7 +62,10 @@ class _LoadingState extends State<Loading> {
   Widget _footer(){
       return Column(
         children: [
-          Text('Wannaikedo@2021'),
+          Text(
+            'Mobilized digital service', 
+            style: TextStyle(fontFamily: 'Pacifico', fontSize: 18),
+          ),
           SizedBox(height: 30,)
         ],
       );

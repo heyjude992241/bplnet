@@ -4,7 +4,8 @@ import 'package:bplnet/screens/home/home.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: 'Flutter Demo',
+    title: 'BPLNet Mobile',
+    theme: ThemeData(fontFamily: 'PoppinsRegular'),
     initialRoute: '/',
     routes: {
       '/': (context) => Loading(),
